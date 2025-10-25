@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { content } = require('pdfkit/js/page');
 
 const chapterSchema = new mongoose.Schema({
     title: {
